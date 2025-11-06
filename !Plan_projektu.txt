@@ -6,9 +6,16 @@ Podstawowe założenia projektu:
 3. Gra musi być prototypem.
 4. Musi zawierać podstawowy styl.
 
+Technologie
+- HTML
+- CSS
+- JavaScript
+- GitHub (Issues, Milestones, Branches)
+
 Hierarchia projektu
 - index.html - Podstawa projektu, Przesyłanie użytkownika do welcome-page.html
 - welcome-page.html - Strona przywitania użytkownika oraz start gry
 - game.html - Główne okno rozgrywki
 - game.js - Logika gry dla game.html
+
 - style.css - Ogólna stylistyka i wygląd dla game.html, welcome-page.html, index.html
