@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra — Kółko i Krzyżyk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="turn-x">
+    <div class="container">
+        <h1>Kółko i Krzyżyk</h1>
+        <h3 id="turn-info">Tura: X</h3>
+
+        <div class="board" id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+
+        <h2 id="winner-message"></h2>
+        <div class="winner-buttons" id="winner-buttons" style="display:none;">
+            <button onclick="resetGame()">Nowa gra</button>
+            <button onclick="window.location.href='index.html'">Menu główne</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
