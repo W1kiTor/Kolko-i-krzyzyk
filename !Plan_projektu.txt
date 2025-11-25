@@ -1,10 +1,10 @@
 Nazwa projektu: Kółko i krzyżyk - webpage game
 
 Podstawowe założenia projektu:
-1. Działająca gra dla conajmniej jednej osoby.
-2. Gra musi zostać stworzona w html css oraz js.
-3. Gra musi być prototypem.
-4. Musi zawierać podstawowy styl.
+1. Działająca gra dla conajmniej jednej osoby. - DONE
+2. Gra musi zostać stworzona w html css oraz js. - DONE
+3. Gra musi być prototypem. - DONE
+4. Musi zawierać podstawowy styl. - DONE
 
 Technologie
 - HTML
@@ -17,5 +17,5 @@ Hierarchia projektu
 - welcome-page.html - Strona przywitania użytkownika oraz start gry
 - game.html - Główne okno rozgrywki
 - game.js - Logika gry dla game.html
-
 - style.css - Ogólna stylistyka i wygląd dla game.html, welcome-page.html, index.html
+
