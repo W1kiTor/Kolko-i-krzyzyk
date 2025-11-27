@@ -66,6 +66,7 @@ function resetGame() {
     currentPlayer = "X";
     document.body.className = "turn-x";
     turnInfo.textContent = "Tura: X";
+    turnInfo.textContent = "Tura: X";
 }
 
 cells.forEach(cell => cell.addEventListener("click", handleClick));
